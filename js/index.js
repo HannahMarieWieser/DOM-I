@@ -110,9 +110,16 @@ let addnav = document.createElement('a')
 addnav.textContent = "Learn More"
 let nav = document.querySelector('nav')
 nav.appendChild(addnav);
+addnav.href = '#'
+addnav.style.color = 'green';
 
-// let morenav = document.createElement('a')
-// morenav.textContent = "Examples"
-// let nav = document.querySelector('nav')
-// nav.prepend(addnav);
+
+
+
+let morenav = document.createElement('a')
+morenav.textContent = "Home"
+let xnav = document.querySelector('nav')
+xnav.prepend(morenav);
+morenav.href = '#'
+morenav.style.color = 'green';
 
