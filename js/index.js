@@ -96,3 +96,23 @@ botContact[0].getElementsByTagName('p')[2].innerHTML = siteContent['contact']['e
 
 let botFooter = document.getElementsByTagName('footer');
 botFooter[0].getElementsByTagName('p')[0].innerHTML = siteContent['footer']['copyright']
+
+
+navLinks[0].style.color = 'green';
+navLinks[1].style.color = 'green';
+navLinks[2].style.color = 'green';
+navLinks[3].style.color = 'green';
+navLinks[4].style.color = 'green';
+navLinks[5].style.color = 'green';
+
+
+let addnav = document.createElement('a')
+addnav.textContent = "Learn More"
+let nav = document.querySelector('nav')
+nav.appendChild(addnav);
+
+// let morenav = document.createElement('a')
+// morenav.textContent = "Examples"
+// let nav = document.querySelector('nav')
+// nav.prepend(addnav);
+
